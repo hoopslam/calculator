@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, rgb(230, 149, 43), rgb(59, 59, 59));
+}
+
+.container-calc {
+  display: block;
+  max-width: 400px;
+  text-align: center;
+  margin: 12% auto 0;
+  padding: 15px;
+  background-color: rgba(20, 20, 20, 0.75);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.322);
+  border-radius: 5px;
+}
+
+h1 {
+  color: white;
+}
+
+.display {
+  background-color: rgba(255, 255, 255, 0.85);
+  max-width: 350px;
+  margin: 0 auto 1em;
+  padding: 0.2em;
+  height: 60px;
+  text-align: right;
+}
+
+.previous {
+  color: rgba(82, 82, 82, 0.9);
+}
+
+.current {
+  font-size: 2em;
+}
+
+button {
+  border: none;
+  background-color: rgba(255, 255, 255, 0.85);
+  outline: none;
+  font-size: 1.5em;
+  border-radius: 5px;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.button-set {
+  display: flex;
+  width: 350px;
+  height: 200px;
+  margin: 0 auto 0;
+}
+
+.button-set-left {
+  display: grid;
+  width: 60%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 5px;
+  margin-right: 5px;
+}
+
+.button-set-right {
+  display: grid;
+  width: 40%;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5px;
+}
+
+.button-set-right > button {
+  background-color: rgba(128, 128, 128, 0.85);
+  color: white;
+}
+
+#clear {
+  background-color: rgb(230, 155, 43);
+  color: white;
+}
+
+#equals {
+  background-color: rgb(80, 180, 80);
+  color: white;
+}
