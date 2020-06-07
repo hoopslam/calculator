@@ -8,6 +8,8 @@ body {
   margin: 0;
   padding: 0;
   background: linear-gradient(to bottom, rgb(230, 149, 43), rgb(59, 59, 59));
+  overflow-y: hidden;
+  min-width: 400px;
 }
 
 .container-calc {
@@ -90,4 +92,12 @@ button:hover {
 #equals {
   background-color: rgb(80, 180, 80);
   color: white;
+}
+
+#del {
+  background-color: rgb(224, 70, 70);
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
 }
